@@ -9,4 +9,9 @@
 		<ProjectReference Include="..\libs\Anthropic.Generator\LangChain.Providers.Anthropic.Generators.csproj" OutputItemType="Analyzer" />
 	</ItemGroup>
 
+    <ItemGroup>
+        <Using Include="Anthropic.SDK.Constants" />
+        <Using Include="Anthropic.SDK.Messaging" />
+    </ItemGroup>
+
 </Project>
